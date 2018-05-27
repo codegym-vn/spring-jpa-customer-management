@@ -1,0 +1,4 @@
+language: java
+jobs:
+  include:
+    - script: ./gradlew test jacocoTestReport

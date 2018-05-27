@@ -17,6 +17,7 @@
           <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.17.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.17.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:1.11.12.RELEASE" />
@@ -51,7 +52,6 @@
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.13" />
           <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
         </element>
       </element>
     </root>

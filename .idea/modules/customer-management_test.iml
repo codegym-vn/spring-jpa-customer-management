@@ -19,6 +19,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:1.11.12.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.sbrannen:spring-test-junit5:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.17.RELEASE" level="project" />
@@ -26,12 +27,19 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:1.13.12.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.17.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-test:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-entitymanager:5.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring4:3.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-all:1.10.19" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-launcher:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-engine:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
@@ -48,8 +56,10 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.13" level="project" />
+    <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.1.0" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="customer-management_main" />
 </module>

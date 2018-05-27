@@ -124,8 +124,8 @@ class CustomerControllerTest {
     @Test
     void saveCustomer_Success() throws Exception {
         mockMvc.perform(post(URL_CREATE_CUSTOMER)
-                .param("firstname", firstname)
-                .param("lastname", lastname))
+                .param("firstName", firstname)
+                .param("lastName", lastname))
                 .andExpect(view().name(VIEW_CREATE_CUSTOMER))
                 .andExpect(model().attributeExists("customer"))
                 .andExpect(model().attributeExists("message"));
@@ -153,9 +153,9 @@ class CustomerControllerTest {
 
     @Test
     void updateCustomer_Success() throws Exception {
-        mockMvc.perform(post(URL_EDIT_PROVINCE_POST, id)
-                .param("firstname", "new f name")
-                .param("lastname", "new l name"))
+        mockMvc.perform(post(URL_EDIT_PROVINCE_POST)
+                .param("firstName", "new f name")
+                .param("lastName", "new l name"))
                 .andExpect(view().name(VIEW_EDIT_CUSTOMER))
                 .andExpect(model().attributeExists("customer"))
                 .andExpect(model().attributeExists("message"));

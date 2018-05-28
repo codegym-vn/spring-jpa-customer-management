@@ -28,6 +28,7 @@ public class CustomerServiceImplTest {
   static private String lastname;
   static private Customer customer;
   static private List<Customer> customers;
+  static private List<Customer> emptyCustomers;
   static private Page<Customer> customersPage;
   static private Page<Customer> emptyCustomersPage;
   static private Pageable pageable;
@@ -39,6 +40,8 @@ public class CustomerServiceImplTest {
     customer.setId(id);
     customers = Arrays.asList(customer);
     customersPage = new PageImpl<>(customers);
+    emptyCustomers = new ArrayList<>();
+    emptyCustomersPage = new PageImpl<>(emptyCustomers);
     pageable = new PageRequest(0, 20);
   }
 
@@ -60,10 +63,8 @@ public class CustomerServiceImplTest {
   @Test
   public void findAllWithNoCustomer() {
     when(customerRepository.findAll(pageable)).thenReturn(emptyCustomersPage);
-    Page<Customer> result = customerService.findAll(pageable);
-
+    assertEquals(emptyCustomersPage, customerService.findAll(pageable));
     verify(customerRepository).findAll(pageable);
-    assertEquals(emptyCustomersPage, result);
   }
 
   @Autowired
